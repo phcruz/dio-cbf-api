@@ -26,7 +26,7 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
 @RestController
-@RequestMapping("/time")
+@RequestMapping("/api/v1/time")
 public class TimeController {
 
 	@Autowired
